@@ -202,3 +202,7 @@ ul li:hover{
   color: black;
   margin: auto;
 }
+.card:hover{
+  color: white;
+  background-image: url('mangoLassis.jpg');
+}
