@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@font-face {
+  font-family: Mango;
+  src: url('typography/Mango-Regular.woff') format("woff"),
+       url('typography/Mango_Regular.woff2') format("woff2");     
+}
+@font-face {
+  font-family: MangoLight;
+  src: url('typography/Mango_Light.woff') format("woff"),
+       url('typography/Mango_Light.woff2') format("woff2");     
+}
+@font-face {
+  font-family: Cookie;
+  src: url('typography/Cookie-Regular[1].woff') format("woff");
+}
+@font-face {
+  font-family: Aquire;
+  src: url('typography/Aquire_Regular.woff') format("woff");
+}
+@font-face {
+  font-family: AquireBold;
+  src: url('typography/Aquire_Bold.woff') format("woff");
+}
+@font-face {
+  font-family: Bubbly;
+  src: url('typography/BubbleBobble.woff') format("woff");
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Mango';
+}
+ul{
+  list-style-type: none;
+  max-height: 3em;
+  position: fixed;
+  top: 0;
+  width: inherit;
+  height: 3em;
+  margin: 0;
+  padding-left: 0;
+  background-image: linear-gradient(45deg, #ffc457, orange, #cc8500);
+  font-family: 'MangoLight';
+  overflow: hidden;
+}
+ul li{
+  background: transparent;
+  width: fit-content;
+  padding: 5px 8px 5px 9px;
+  height: 2.375em;
+  float: left;
+  margin: 0;
+  line-height: 2.375em;
+  text-align: center;
+  cursor: pointer;
+}
+ul li:hover{
+  background: darkorange;
+  font-family: 'Mango';
+  font-size: larger;
+}
+.title{
+  text-align: center;
+  font-size: 6em;
+  margin: 0;
+  position: absolute;
+  left: 480px;
+  top: 241px;
+  color: transparent;
+  -webkit-text-stroke: 4px black;
+  z-index: 2;
+  animation: appear 5s ease-out;
+}
+@keyframes appear{
+  0%{-webkit-text-stroke: 0px white;}
+  20%{-webkit-text-stroke: 1px red;}
+  50%{-webkit-text-stroke: 2px #ff7b00;}
+  100%{-webkit-text-stroke: 3px black;}
+}
+#titleContainer{
+  background-image: conic-gradient(#ffe6b8, #ffe6b8, #805300, orange);
+  color: transparent;
+  height: 97.5%;
+  overflow-y: hidden;
+}
+.mangopic{
+  object-fit: contain;  
+  height: 500px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  opacity: .5;
+}
+.images{
+  position: relative;
+  float:left;
+  width: 150%;
+  height: 50%;
+  overflow:hidden;
+  overflow-y:hidden;
+  animation: scroll 5s cubic-bezier(.17,.44,.92,.14);
+  left: -50px;
+  max-height: 100%;
+}
+@keyframes scroll {
+  from{ height: 0;}
+  to{ height: 500px;}
+}
+.imagescon{
+  position: absolute;
+  left: 0;
+  top: 2.9em;
+  overflow: clip;
+  width: 100%;
+}
+#mangolassitext{
+  font-family: 'Cookie';
+  font-size: 5em;
+  color: white;
+  background-image: radial-gradient(#fed486, #fbce79, orange);
+  text-align: center;
+  border-radius: 6px;
+  border: 2px solid white;
+  padding: 50px;
+  position: absolute;
+  left: 10%;
+  width: 900px;
+}
+#mangolassi{
+  position: absolute;
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px;
+  width: 800px;
+  height: 200px;
+}
+#hightechtext{
+  font-family: 'Cookie';
+  font-size: 5em;
+  color: white;
+  background-image: radial-gradient(blue, blue, blue, lightcyan);
+  text-align: center;
+  border-radius: 6px;
+  border: 2px solid white;
+  padding: 50px;
+  position: absolute;
+  left: 10%;
+  width: 900px;
+  font-family: 'Aquire';
+}
+#hightech{
+  position: absolute;
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px;
+  width: 800px;
+  height: 200px;
+  top: 150%;
+  font-family: 'Aquire';
+}
+.content{
+  text-align: center;
+  width: 100%;
+  height: infinite;
+  font-family: 'Roboto Slab';
+}
+.nothing{
+  font-size: 500%;
+  font-family:'AquireBold';
+}
+.bubbly{
+  font-family: 'Bubbly';
+  font-optical-sizing: auto;
+  font-size: 300%;
+}
+
+::-webkit-scrollbar{
+  width: 30px;
+}
+
+::-webkit-scrollbar-track{
+  background-image: linear-gradient(red, blue);
+}
+
+::-webkit-scrollbar-track:hover{
+  background-image: linear-gradient(blue, red);
+}
+
+::-webkit-scrollbar-thumb{
+  border: 3px solid white;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  border: 4px dotted black;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #ffffff;
+  color: black;
+  margin: auto;
+}
