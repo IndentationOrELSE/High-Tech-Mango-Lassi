@@ -1,0 +1,19 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+.codearea{
+  background-color: #1C2333;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 7px;
+}
+#code{
+  width: 50vw;
+  height: 25vw;
+}
+
+#code:focus{
+  border: 1px solid red;
+}
