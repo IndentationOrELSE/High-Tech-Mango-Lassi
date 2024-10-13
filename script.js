@@ -9,7 +9,7 @@ document.getElementById("mangolassi").addEventListener("mousemove", function(){
 const para = document.createElement("img");
 para.src = 'mangoIco.ico'
 para.style.position = "absolute";
-para.style.top = event.clientY*1.75+(10 * Math.random()) + "px";
+para.style.top = event.clientY*1.75+(100 * Math.random()) + "px";
 para.style.left = event.clientX + "px";
 setTimeout(function(){para.style.opacity = '0.5'}, 1000)
   setTimeout(function(){para.remove()}, 2000)
@@ -22,7 +22,7 @@ para.src = 'laptoptransparent.ico'
 para.style.position = "absolute";
 para.style.width = '20px'
 para.style.height = '20px'
-para.style.top = event.clientY*1.75+(10 * Math.random()) + "px";
+para.style.top = event.clientY*2.75 + "px";
 para.style.left = event.clientX + "px";
 setTimeout(function(){para.style.opacity = '0.5'}, 1000)
   setTimeout(function(){para.remove()}, 2000)
