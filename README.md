@@ -6,5 +6,5 @@ Oh great, another useless website.
 
 ### Here's a screenshot of the top.
 
-![sneak peek if you can't see then ↓↓↓↓](https://pasteboard.co/LEUc8uEP3Yzi.png)
+![sneak peek if you can't see then ↓↓↓↓](sneak-peek)
 ### DOWNLOAD TO SEE MORE!! i guess
