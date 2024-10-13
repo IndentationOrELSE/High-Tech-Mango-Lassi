@@ -65,8 +65,8 @@ ul li:hover{
   font-size: 6em;
   margin: 0;
   position: absolute;
-  left: 480px;
-  top: 241px;
+  left: 6em;
+  top: 3em;
   color: transparent;
   -webkit-text-stroke: 4px black;
   z-index: 2;
@@ -105,7 +105,7 @@ ul li:hover{
 }
 @keyframes scroll {
   from{ height: 0;}
-  to{ height: 500px;}
+  to{ height: 600px;}
 }
 .imagescon{
   position: absolute;
@@ -124,8 +124,8 @@ ul li:hover{
   border: 2px solid white;
   padding: 50px;
   position: absolute;
-  left: 10%;
-  width: 900px;
+  left: 30%;
+  width: 90%;
 }
 #mangolassi{
   position: absolute;
@@ -133,7 +133,7 @@ ul li:hover{
   margin-top: 50px;
   padding: 30px;
   width: 800px;
-  height: 200px;
+  height: auto;
 }
 #hightechtext{
   font-family: 'Cookie';
@@ -145,8 +145,8 @@ ul li:hover{
   border: 2px solid white;
   padding: 50px;
   position: absolute;
-  left: 10%;
-  width: 900px;
+  left: 30%;
+  width: 90%;
   font-family: 'Aquire';
 }
 #hightech{
@@ -176,11 +176,11 @@ ul li:hover{
 }
 
 ::-webkit-scrollbar{
-  width: 30px;
+  width: 1em;
 }
 
 ::-webkit-scrollbar-track{
-  background-image: linear-gradient(red, blue);
+  background-image: linear-gradient(red);
 }
 
 ::-webkit-scrollbar-track:hover{
@@ -188,7 +188,7 @@ ul li:hover{
 }
 
 ::-webkit-scrollbar-thumb{
-  border: 3px solid white;
+  border: 1px solid white;
 }
 
 ::-webkit-scrollbar-thumb:hover{
